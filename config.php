@@ -6,7 +6,7 @@ This file contains database configuration assuming you are running mysql using u
 
 
 // Try connecting to the Database
-$conn = new mysqli("localhost","root","","login");
+$conn = new mysqli("localhost","root","J!8orB@nXxoQ,FU-","login");
 
 //Check the connection
 if($conn == false){

@@ -3,13 +3,10 @@
 This file contains database configuration assuming you are running mysql using user "root" and password ""
 */
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'J!8orB@nXxoQ,FU-');
-define('DB_NAME', 'login');
+
 
 // Try connecting to the Database
-$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = new mysqli("localhost","root","","login");
 
 //Check the connection
 if($conn == false){
